@@ -73,7 +73,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({
       <div className="relative aspect-[4/3] bg-gray-100 overflow-hidden">
         {/* High-resolution food photograph - edge-to-edge */}
         <img 
-          src={imageError ? "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800&auto=format&fit=crop" : product.image} 
+          src={imageError ? "#" : product.image} 
           alt={product.title} 
           className="w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-110"
           loading="lazy"
