@@ -67,7 +67,7 @@ export const QualitySection: React.FC = () => {
               
               <div className="relative z-10">
                 <img 
-                  src="./App/Assets/grocery-business.avif" 
+                  src="/App/Assets/grocery-business.avif" 
                   alt="Quality Assurance" 
                   className="rounded-2xl sm:rounded-3xl shadow-2xl w-full object-cover transform transition-transform duration-700 hover:scale-[1.02] border-2 sm:border-4 border-white"
                   onError={(e) => {

@@ -76,7 +76,7 @@ export const AboutSection: React.FC = () => {
                 {/* Main Image Container */}
                 <div className="relative overflow-hidden rounded-lg sm:rounded-xl md:rounded-2xl h-full w-full">
                   <img
-                    src="./App/Assets/our-story.png"
+                    src="/App/Assets/our-story.png"
                     alt="Organic Farming"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                   />

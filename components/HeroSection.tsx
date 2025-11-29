@@ -66,7 +66,7 @@ export const HeroSection: React.FC = () => {
           <div className="w-full lg:w-1/2 relative animate-fade-in flex items-center" style={{animationDelay: '0.3s'}}>
             <div className="relative z-10 mx-auto max-w-[500px] lg:max-w-full w-full">
               <img 
-                src="./App/Assets/hero-image.avif" 
+                src="/App/Assets/hero-image.avif" 
                 alt="Organic Grocery" 
                 className="w-full h-auto rounded-[3rem] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.15)] relative z-10 border-[6px] border-white/50"
               />
